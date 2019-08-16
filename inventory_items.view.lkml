@@ -1,10 +1,15 @@
+### fucking shit up to test
+
+
+
 view: inventory_items {
   sql_table_name: demo_db.inventory_items ;;
 
   dimension: id {
     primary_key: yes
     type: number
-    sql: ${TABLE}.id ;;
+    sql: ${TABLE}.cost ;;
+    ####### ^^ OPPPS
   }
 
   dimension: cost {
